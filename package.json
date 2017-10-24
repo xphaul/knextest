@@ -2,16 +2,18 @@
   "name": "knextest",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "lab -c -v -L -a code"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "boom": "^6.0.0",
+    "code": "^5.1.0",
     "hapi": "^16.6.2",
     "knex": "^0.13.0",
+    "lab": "^15.0.0",
     "moment": "^2.19.1",
     "pg": "^7.3.0"
   }
